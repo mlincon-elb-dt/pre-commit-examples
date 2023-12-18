@@ -52,11 +52,7 @@ repos:
     hooks:
       - id: hadolint
         args:
-          - api/Dockerfile
-          - frontend/Dockerfile
-          - Dockerfile.local.backend
-          - Dockerfile.local.frontend
-          - Dockerfile.local.postgresql
+          - Dockerfile
 
 ci:
   autofix_commit_msg: 🎨 [pre-commit.ci] Auto format from pre-commit.com hooks
